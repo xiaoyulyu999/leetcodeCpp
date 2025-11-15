@@ -20,4 +20,8 @@ add_executable(leetcode main.cpp
         threeSum.h
         sumClosest3.cpp
         sumClosest3.h
+        reverseInteger.c++
+        reverseInteger.hpp
+        isPalindrome.c++
+        isPalindrome.hpp
 )
