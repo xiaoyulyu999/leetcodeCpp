@@ -44,3 +44,4 @@ ListNode* removeNthNodeFromEndOfList::removeNthFromEnd(ListNode* head, int n)
     left->next = left->next->next;
     return dummy->next;
 }
+

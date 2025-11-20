@@ -28,4 +28,7 @@ add_executable(leetcode main.cpp
         sum4.h
         removeNthNodeFromEndOfList.cpp
         removeNthNodeFromEndOfList.h
+        mergeTwoSortedLists.cpp
+        mergeTwoSortedLists.h
+        ListNode.h
 )
