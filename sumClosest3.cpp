@@ -23,9 +23,9 @@
 
 #include "sumClosest3.h"
 
-int sumClosest3::solution(std::vector<int>& nums, int target)
+int sumClosest3::solution(std::vector<int>& nums, const int target)
 {
-    std::sort(nums.begin(), nums.end());
+    std::ranges::sort(nums);
 
     int n = nums.size();
     int closest = nums[0] + nums[1] + nums[2]; // initialize with first valid triplet

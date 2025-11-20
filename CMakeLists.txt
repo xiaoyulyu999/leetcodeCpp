@@ -24,4 +24,8 @@ add_executable(leetcode main.cpp
         reverseInteger.hpp
         isPalindrome.c++
         isPalindrome.hpp
+        sum4.cpp
+        sum4.h
+        removeNthNodeFromEndOfList.cpp
+        removeNthNodeFromEndOfList.h
 )

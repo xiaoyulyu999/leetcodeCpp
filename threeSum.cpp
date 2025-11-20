@@ -7,7 +7,7 @@ std::vector<std::vector<int>> threeSum::solution(std::vector<int>& nums)
     std::ranges::sort(nums);
     std::vector<std::vector<int>> result;
 
-    int n = nums.size();
+    const int n = nums.size();
 
     for (int i = 0; i < n - 2; i++)
     {
@@ -20,9 +20,7 @@ std::vector<std::vector<int>> threeSum::solution(std::vector<int>& nums)
 
         while (left < right)
         {
-            int sum = nums[i] + nums[left] + nums[right];
-
-            if (sum < 0)
+            if (const int sum = nums[i] + nums[left] + nums[right]; sum < 0)
             {
                 left++;
             }
