@@ -31,4 +31,6 @@ add_executable(leetcode main.cpp
         mergeTwoSortedLists.cpp
         mergeTwoSortedLists.h
         ListNode.h
+        mergeSortedList.cpp
+        mergeSortedList.h
 )
