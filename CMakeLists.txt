@@ -33,4 +33,16 @@ add_executable(leetcode main.cpp
         ListNode.h
         mergeSortedList.cpp
         mergeSortedList.h
+        sortList.cpp
+        sortList.h
+        medianOfTwoSorted.cpp
+        medianOfTwoSorted.h
+        phoneNumberToLetter.cpp
+        phoneNumberToLetter.h
+        anagrams.cpp
+        anagrams.h
+        integerToRoman.cpp
+        integerToRoman.h
+        romanToInt.cpp
+        romanToInt.h
 )

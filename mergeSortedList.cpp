@@ -36,7 +36,6 @@ ListNode* mergeSortedList::mergeKsortedList(std::vector<ListNode*>& lists)
 {
     if (lists.empty()) return nullptr;
 
-
     while (lists.size() > 1)
     {
         std::vector<ListNode*> mergeList = {};
