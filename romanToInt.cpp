@@ -19,14 +19,13 @@ int romanToInt::solution(const string strs)
     };
 
     int result = 0;
-    int n = strs.size();
+    const int n = strs.size();
 
     for (int i = 0; i < n; ++i)
     {
-        int value = romanMap[strs[i]];
 
         // If this value is smaller than the next one, subtract it
-        if (i + 1 < n && value < romanMap[strs[i + 1]])
+        if (const int value = romanMap[strs[i]]; i + 1 < n && value < romanMap[strs[i + 1]])
             result -= value;
         else
             result += value;

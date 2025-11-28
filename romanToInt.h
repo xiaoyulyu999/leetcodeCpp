@@ -10,7 +10,7 @@
 class romanToInt
 {
     public:
-    static int solution(const std::string);
+    static int solution(std::string);
 };
 
 
