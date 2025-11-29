@@ -47,4 +47,6 @@ add_executable(leetcode main.cpp
         romanToInt.h
         linkedListCycle.c++
         linkedListCycle.hpp
+        intersectionOfTwoLinkedLists.c++
+        intersectionOfTwoLinkedLists.hpp
 )
