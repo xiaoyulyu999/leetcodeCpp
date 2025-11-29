@@ -45,4 +45,6 @@ add_executable(leetcode main.cpp
         integerToRoman.h
         romanToInt.cpp
         romanToInt.h
+        linkedListCycle.c++
+        linkedListCycle.hpp
 )
